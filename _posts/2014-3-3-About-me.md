@@ -25,5 +25,6 @@ I'm a graduate student at Stanford University in the Institute for Computational
 - Travelling and <b>hanging out with cool people!<b>
 
 <b>Areas of research:</b>
+
 - Artificial intelligence (from an optimization/complex systems point of view).
 - Quantitative / High frequency trading.
