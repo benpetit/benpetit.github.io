@@ -22,7 +22,7 @@ I'm a graduate student at Stanford University in the Institute for Computational
 
 - Guitar (electric, acoustic): I have have played the guitar since I was 12, and dedicate huge portions of my time to discovering new techniques and styles.
 - Lots of sports, but especially running, tennis, handball and soccer.
-- Travelling and <b>hanging out with cool people!<b>
+- Travelling and hanging out with cool people!
 
 <b>Areas of research:</b>
 
