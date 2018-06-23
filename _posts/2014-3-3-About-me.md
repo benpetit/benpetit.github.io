@@ -1,30 +1,10 @@
 ---
 layout: post
-title: About me
+title: Training arbitrarily deep neural networks with progressive training
 ---
 
-I'm a graduate student at Stanford University in the Institute for Computational and Mathematical Engineering (ICME), formerly in the Applied Mathematics department at Ecole polytechnique, Paris. Prior to entering Ecole polytechnique, I was a Mathematics/CS preparatory class (<i>Classe preparatoire</i>) student at Lycee Sainte-Genevieve in Versailles.
+Deep neural networks solve many problems. Deeper neural networks solve even more problems. Though the latter architectures used to be very prone to overfitting and difficult to train, recent research has shown impressive improvements (think ResNet, FractalNet and others).
 
-<b>Mathematics:</b>
+I've been thinking for a few months about these (relatively) new architectures. I do believe that the use of deeper networks allows for more expressivity and scalability to complex datasets. Interestingly, these "ultra-deep" networks - as I like to call them - even though they have large numbers of parameters, do not suffer too much from overfitting. One particularly interesting phenomenon I noted is particularly visible in 
 
-- Probability, stochastic processes.
-- Algebra, combinatorics.
-- Analysis, optimization.
-
-<b>Computer science:</b>
-
-- Algorithms & theoretical CS.
-- Machine learning, deep learning.
-- Concurrent and parallel programming, massive data processing.
-- Software development (Python, Java, C++, OCaml).
-
-<b>Everything else:</b>
-
-- Guitar (electric, acoustic): I have have played the guitar since I was 12, and dedicate huge portions of my time to discovering new techniques and styles.
-- Lots of sports, but especially running, tennis, handball and soccer.
-- Travelling and hanging out with cool people!
-
-<b>Areas of research:</b>
-
-- Artificial intelligence (from an optimization/complex systems point of view).
-- Quantitative / High frequency trading.
+I recently went through Google Brain's "old" GoogLeNet paper.  
