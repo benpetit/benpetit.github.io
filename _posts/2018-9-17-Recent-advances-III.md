@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: Recent advances in RL III: Meta-learning
 ---
 
