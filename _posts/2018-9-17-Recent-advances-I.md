@@ -1,10 +1,12 @@
 ---
 layout: post
 mathjax: true
-title: Recent advances in RL I: Imagination-augmented agents
+title: :Recent advances in RL I: Imagination-augmented agents"
+categories: [blog, Reinforcement learning]
+tags: [blog, reinforcement learning, rl, AI, artificial intelligence, imagination, I2A, World models]
 ---
 
-## Recent advances in RL I: Imagination-augmented agents
+# Recent advances in RL I: Imagination
 
 The most impressive (relatively) recent steps in artificial intelligence (notably Deep-Q networks and deep policy gradients) definitely fell in the field of <em>model-free</em> reinforcement learning. What this means is that we do not need to know the dynamics of the MDP (that is to say the transition probabilities) to train an agent on it. This is useful, but also often leads to very poor data-efficiency.
 
@@ -33,6 +35,8 @@ The way these elements interact with each other could be summarized as follows:
 4. Each "imagined" rollout is then encoded using the <em>rollout encoder</em>, and the subsequent representations are aggregated using the <em>aggregator</em>.
 5. These aggregated rollout representations, plus the output of the A3C are fed into the <em>policy module</em>, which finally outputs a policy, which in turns is used to sample the actual action.
 
+{% include image.html url="/images/I2A_architecture.png" description="Scheme of the I2A model (source: original paper)" %}
+
 Here is a few facts on how the model is trained (check Annex A if you want a deeper dive):
 1. The <em>environment model</em> can be pre-trained, or trained simultaneously with the rest of the I2A model. According to the authors, the pre-training the environment model allows for faster training of the entire architecture (not really surprising).
 2. The authors suggest that using an entropy regularizer on the output policy $\pi$ favors exploration and accelerates the training (using a small coefficient, here $10^{-2}$).
@@ -42,7 +46,7 @@ Here is a few facts on how the model is trained (check Annex A if you want a dee
 
 #### References
 
-[1] - "<em>Asynchronous methods for deep reinforcement learning</em>", Mnih, et al. (2016.)
+[1] - "<em>Asynchronous methods for deep reinforcement learning</em>", Mnih, et al. (2016.) <br/>
 [2] - "<em>Deep Reinforcement Learning Doesn't Work Yet</em>", Alex Irpan (2018), available at https://www.alexirpan.com/2018/02/14/rl-hard.html
 
 https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/
