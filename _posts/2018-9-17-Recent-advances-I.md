@@ -21,17 +21,17 @@ In this post, I will comment and compare the following two seminal papers:
 This paper introduces a model called "I2A", which stands for "Imagination-Augmented Agent". The model is made of the following elements:
 
 1. An <strong>"imagination core"</strong>, which itself consists in two elements:
-    1. A <em>policy network</em>, which parameterizes a policy \(\hat{\pi}\).
+    1. A <em>policy network</em>, which parameterizes a policy $$\hat{\pi}$$.
     2. An <em>environment model</em>, which takes a state and an action, and returns an estimate of the reward and the following state.
 2. A <strong>rollout encoder</strong>, which is basically an LSTM network whose function is to encode a sequence of actions and states into a high-dimensional space.
 3. An <strong>aggregator</strong>, which simply concatenates a certain number of rollout representations (outputs of the rollout encoder).
-4. A <strong>model-free RL algorithm</strong>, which learns a policy \(\pi\). In the paper, an A3C model is used (see [1] for more details). This algorithm only takes the actual "real" observation as input (it is completely independent from the previous elements).
+4. A <strong>model-free RL algorithm</strong>, which learns a policy $$\pi$$. In the paper, an A3C model is used (see [1] for more details). This algorithm only takes the actual "real" observation as input (it is completely independent from the previous elements).
 5. A <strong>policy module</strong>, which takes as inputs both the <em>aggregated rollout representations</em> and the <em>output of the model-free RL algorithm</em>, and outputs a policy vector and an estimated value.
 
 The way these elements interact with each other could be summarized as follows:
-1. The agent makes an observation $o$.
-2. This observation is used as input of the A3C model, which outputs a policy $$\pi$$ and an estimate of the current state's value.
-3. $o$ is also fed into the imagination core, where it is used to simulate a number of rollouts of the policy \(\hat{\pi}\). More precisely, the <em>policy network</em> is used to sample an action, and this action plus the current state are fed into the <em>environment model</em>, which generates an estimate of the next state. This new state is in turn fed into the policy network, etc. Repeating this operation allows us to generate a certain number of "imagined" rollouts (we use the word "imagined" because these rollouts are not obtained by interacting with the actual environment, but only an approximate version based on the <em>environment model</em>).
+1. The agent makes an observation $$o$$.
+2. This observation is used as input of the A3C model, which outputs a policy $$$$\pi$$$$ and an estimate of the current state's value.
+3. $$o$$ is also fed into the imagination core, where it is used to simulate a number of rollouts of the policy $$\hat{\pi}$$. More precisely, the <em>policy network</em> is used to sample an action, and this action plus the current state are fed into the <em>environment model</em>, which generates an estimate of the next state. This new state is in turn fed into the policy network, etc. Repeating this operation allows us to generate a certain number of "imagined" rollouts (we use the word "imagined" because these rollouts are not obtained by interacting with the actual environment, but only an approximate version based on the <em>environment model</em>).
 4. Each "imagined" rollout is then encoded using the <em>rollout encoder</em>, and the subsequent representations are aggregated using the <em>aggregator</em>.
 5. These aggregated rollout representations, plus the output of the A3C are fed into the <em>policy module</em>, which finally outputs a policy, which in turns is used to sample the actual action.
 
@@ -39,8 +39,8 @@ The way these elements interact with each other could be summarized as follows:
 
 Here is a few facts on how the model is trained (check Annex A if you want a deeper dive):
 1. The <em>environment model</em> can be pre-trained, or trained simultaneously with the rest of the I2A model. According to the authors, the pre-training the environment model allows for faster training of the entire architecture (not really surprising).
-2. The authors suggest that using an entropy regularizer on the output policy \(\pi\) favors exploration and accelerates the training (using a small coefficient, here \(10^{-2}\)).
-3. They also add a "policy distillation" term to the global loss, which is simply the cross-entropy between \(\pi\) and \(\hat{\pi}\)
+2. The authors suggest that using an entropy regularizer on the output policy $$\pi$$ favors exploration and accelerates the training (using a small coefficient, here $$10^{-2}$$).
+3. They also add a "policy distillation" term to the global loss, which is simply the cross-entropy between $$\pi$$ and $$\hat{\pi}$$
 4. Distributed training (A3C) over multiple workers (32-64) with RMSprop. Performed a round of hyperparameter optimization.
 5. As always, uses the best 3 agents to build the learning curves.
 
