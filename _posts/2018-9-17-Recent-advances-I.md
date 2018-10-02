@@ -35,7 +35,7 @@ The way these elements interact with each other could be summarized as follows:
 4. Each "imagined" rollout is then encoded using the <em>rollout encoder</em>, and the subsequent representations are aggregated using the <em>aggregator</em>.
 5. These aggregated rollout representations, plus the output of the A3C are fed into the <em>policy module</em>, which finally outputs a policy, which in turns is used to sample the actual action.
 
-{% include image.html url="/images/I2A_architecture.png" description="Scheme of the I2A model (source: original paper)" %}
+{% include image.html url="../images/i2a_architecture.png" description="Scheme of the I2A model (source: original paper)" %}
 
 Here is a few facts on how the model is trained (check Annex A if you want a deeper dive):
 1. The <em>environment model</em> can be pre-trained, or trained simultaneously with the rest of the I2A model. According to the authors, the pre-training the environment model allows for faster training of the entire architecture (not really surprising).
