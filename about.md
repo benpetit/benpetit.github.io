@@ -37,5 +37,5 @@ At Ecole polytechnique, I worked with Prof. Jean-Philippe Bouchaud on some appli
 - Deep learning under massive label noise (at Tower Research).
 - Optimal trading (with Prof. Jean-Philippe Bouchaud).
 - Stochastic trust-region optimization algorithms, applications to traffic models (in collaboration with Aimsun).
-- Fair share problems (under the supervision of Prof. De Seguins-Pazzis, see summary in French [here](../_documents/TIPE_spe.pdf)).
-- An essay on the plactic monoid (RSK correspondence and the Erdos-Szekeres theorem, see report in French [here](../_documents/TIPE_sup.pdf)).
+- Fair share problems (under the supervision of Prof. De Seguins-Pazzis, see summary in French here).
+- An essay on the plactic monoid (RSK correspondence and the Erdos-Szekeres theorem, see report in French here).
