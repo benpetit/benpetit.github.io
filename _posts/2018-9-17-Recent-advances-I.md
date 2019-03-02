@@ -1,12 +1,10 @@
 ---
 layout: post
 mathjax: true
-title: "Recent advances in RL I: Imagination-augmented agents"
+title: "Recent advances in RL I: Imagination"
 categories: [blog, Reinforcement learning]
 tags: [blog, reinforcement learning, rl, AI, artificial intelligence, imagination, I2A, World models]
 ---
-
-# Recent advances in RL I: Imagination
 
 The most impressive (relatively) recent steps in artificial intelligence (notably Deep-Q networks and deep policy gradients) definitely fell in the field of <em>model-free</em> reinforcement learning. What this means is that we do not need to know the dynamics of the MDP (that is to say the transition probabilities) to train an agent on it. This is useful, but also often leads to very poor data-efficiency.
 
