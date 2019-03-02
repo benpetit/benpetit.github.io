@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a graduate student at Stanford University in the [Institute for Computational and Mathematical Engineering](https://icme.stanford.edu/) (ICME), formerly in the Applied Mathematics department at [Ecole polytechnique](https://www.polytechnique.edu/en), Paris. Prior to entering Ecole polytechnique, I was a Mathematics/CS preparatory class (<i>Classe preparatoire</i>) student at [Lycee Sainte-Genevieve](http://www.bginette.com/) in Versailles.
+I am a graduate student at Stanford University in the [Institute for Computational and Mathematical Engineering](https://icme.stanford.edu/) (ICME), formerly in the Applied Mathematics department at [Ecole polytechnique](https://www.polytechnique.edu/en), Paris. Prior to entering Ecole polytechnique, I was a Mathematics/CS preparatory class (<i>Classe preparatoire</i>) student at [Lycee Sainte-Genevieve](http://www.bginette.com/) in Versailles.
 
 At Ecole polytechnique, I worked with Prof. Jean-Philippe Bouchaud on some applications of control theory to trading. In 2018, I spent 6 months at Tower Research Capital in New York, where I worked on some applications of nonlinear machine learning techniques to high-frequency trading.
 
