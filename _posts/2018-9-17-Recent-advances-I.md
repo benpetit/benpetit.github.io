@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: :Recent advances in RL I: Imagination-augmented agents"
+title: "Recent advances in RL I: Imagination-augmented agents"
 categories: [blog, Reinforcement learning]
 tags: [blog, reinforcement learning, rl, AI, artificial intelligence, imagination, I2A, World models]
 ---
