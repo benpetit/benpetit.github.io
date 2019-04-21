@@ -6,18 +6,13 @@ permalink: /about/
 
 I am a graduate student at Stanford University in the [Institute for Computational and Mathematical Engineering](https://icme.stanford.edu/) (ICME), formerly in the Applied Mathematics department at [Ecole polytechnique](https://www.polytechnique.edu/en), Paris. Prior to entering Ecole polytechnique, I was a Mathematics/CS preparatory class (<i>Classe preparatoire</i>) student at [Lycee Sainte-Genevieve](http://www.bginette.com/) in Versailles.
 
-At Ecole polytechnique, I worked with Prof. Jean-Philippe Bouchaud on some applications of control theory to trading. In 2018, I spent 6 months at Tower Research Capital in New York, where I worked on some applications of nonlinear machine learning techniques to high-frequency trading.
+My primary research interest is artificial intelligence. I am especially interested in building systems that can learn tasks from scratch (reinforcement learning) and/or use accumulated knowledge to efficiently learn new tasks (meta-learning).
 
-<b>Areas of research:</b>
+I am also highly interested in the statistical aspects of financial markets. At Ecole polytechnique, I worked with Prof. Jean-Philippe Bouchaud on some applications of control theory to trading. In 2018, I spent 6 months at Tower Research Capital in New York, where I worked on some applications of nonlinear machine learning techniques to high-frequency trading.
 
-- Artificial intelligence (especially reinforcement and meta-learning).
-- Quantitative / High frequency trading.
+I also really enjoy teaching. I was a teaching assistant in Mathematics at Lycee Sainte-Genevieve in the academic year 2016-2017, conducting weekly oral examinations for undergraduates (linear algebra, real analysis, probability and group theory among other things). More recently, I have been a teaching assistant at Stanford for CS221 (AI: Principles and Techniques), in Fall 2018 and Spring 2019.
 
-<b>Other interests</b>
-
-- Playing the guitar (electric, acoustic).
-- Many different sports, but especially running, tennis, handball and soccer.
-- Travel photography.
+In my free time, I play a lot of music (acoustic and electric guitar). I also enjoy traveling and solving interesting puzzles.
 
 <b>Selected research projects</b>
 
@@ -27,12 +22,6 @@ At Ecole polytechnique, I worked with Prof. Jean-Philippe Bouchaud on some appli
 - Stochastic trust-region optimization algorithms, applications to traffic models (in collaboration with [Aimsun](https://www.aimsun.com/)).
 - Fair share problems (under the supervision of Prof. De Seguins-Pazzis).
 - An essay on the plactic monoid (RSK correspondence and the Erdos-Szekeres theorem).
-
-<b>Teaching</b>
-
-- I was a teaching assistant in Mathematics at Lycee Sainte-Genevieve in the academic year 2016-2017, conducting weekly oral examinations for undergraduate students. Topics included linear algebra, real analysis, probability and group theory.
-- In Fall 2018, I was a teaching assistant for [CS221](http://web.stanford.edu/class/cs221/) (Artificial Intelligence: Principles and Techniques) with Prof. [Percy Liang](https://cs.stanford.edu/~pliang/).
-- I am currently (Spring 2019) a teaching assistant for CS221, with Prof. [Dorsa Sadigh](https://dorsa.fyi/) and [Moses Charikar](https://profiles.stanford.edu/moses-charikar).
 
 <b>Contact</b>
 benpetit \(@t\) stanford \[-dot-\] edu
