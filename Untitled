@@ -1,0 +1,290 @@
+[{"account":177569,"symbol":"XBTUSD","currency":"XBt","underlying":"XBT","quoteCurrency":"USD","commission":0.00075,"initMarginReq":0.01,"maintMarginReq":0.005,"riskLimit":20000000000,"leverage":100,"crossMargin":true,"deleveragePercentile":null,"rebalancedPnl":28917,"prevRealisedPnl":-34612,"prevUnrealisedPnl":0,"prevClosePrice":4112.41,"openingTimestamp":"2019-04-02T09:00:00.000Z","openingQty":0,"openingCost":28180,"openingComm":737,"openOrderBuyQty":0,"openOrderBuyCost":0,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":0,"execBuyCost":0,"execSellQty":0,"execSellCost":0,"execQty":0,"execCost":0,"execComm":0,"currentTimestamp":"2019-04-02T09:00:00.354Z","currentQty":0,"currentCost":28180,"currentComm":737,"realisedCost":28180,"unrealisedCost":0,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":0,"isOpen":false,"markPrice":null,"markValue":0,"riskValue":0,"homeNotional":0,"foreignNotional":0,"posState":"","posCost":0,"posCost2":0,"posCross":0,"posInit":0,"posComm":0,"posLoss":0,"posMargin":0,"posMaint":0,"posAllowance":0,"taxableMargin":0,"initMargin":0,"maintMargin":0,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":-28180,"realisedTax":0,"realisedPnl":-28917,"unrealisedGrossPnl":0,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTaxRate":0,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":0,"unrealisedPnlPcnt":0,"unrealisedRoePcnt":0,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":null,"avgEntryPrice":null,"breakEvenPrice":null,"marginCallPrice":null,"liquidationPrice":null,"bankruptPrice":null,"timestamp":"2019-04-02T09:00:00.354Z","lastPrice":null,"lastValue":0}]
+
+Neutral pos on BTC, Long pos on ETH.
+
+Pos value on BTCUSD in BTC = homeNotional - Nbr of contracts = foreignNotional or currentQty (signed)
+Pos value on ETHUSD in ETH = homeNotional - Nbr of contracts = currentQty
+
+[{"account":177569,"symbol":"XBTUSD","currency":"XBt","underlying":"XBT","quoteCurrency":"USD","commission":0.00075,"initMarginReq":0.5,"maintMarginReq":0.005,"riskLimit":20000000000,"leverage":2,"crossMargin":false,"deleveragePercentile":null,"rebalancedPnl":0,"prevRealisedPnl":-34612,"prevUnrealisedPnl":0,"prevClosePrice":4920,"openingTimestamp":"2019-04-04T16:00:00.000Z","openingQty":0,"openingCost":0,"openingComm":0,"openOrderBuyQty":0,"openOrderBuyCost":0,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":0,"execBuyCost":0,"execSellQty":38,"execSellCost":762888,"execQty":-38,"execCost":762888,"execComm":572,"currentTimestamp":"2019-04-04T16:41:08.920Z","currentQty":-38,"currentCost":762888,"currentComm":572,"realisedCost":0,"unrealisedCost":762888,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":762888,"isOpen":true,"markPrice":4906.5,"markValue":774478,"riskValue":774478,"homeNotional":-0.00774478,"foreignNotional":38,"posState":"","posCost":762888,"posCost2":762888,"posCross":0,"posInit":381444,"posComm":859,"posLoss":0,"posMargin":382303,"posMaint":4674,"posAllowance":0,"taxableMargin":0,"initMargin":0,"maintMargin":393893,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":0,"realisedTax":0,"realisedPnl":-572,"unrealisedGrossPnl":11590,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTaxRate":0,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":11590,"unrealisedPnlPcnt":0.0152,"unrealisedRoePcnt":0.0304,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":4981,"avgEntryPrice":4981,"breakEvenPrice":4977,"marginCallPrice":9862.5,"liquidationPrice":9862.5,"bankruptPrice":9962,"timestamp":"2019-04-04T16:41:08.920Z","lastPrice":4906.5,"lastValue":774478},
+
+{"account":177569,"symbol":"ETHUSD","currency":"XBt","underlying":"ETH","quoteCurrency":"USD","commission":0.00075,"initMarginReq":1,"maintMarginReq":0.01,"riskLimit":5000000000,"leverage":1,"crossMargin":false,"deleveragePercentile":1,"rebalancedPnl":0,"prevRealisedPnl":0,"prevUnrealisedPnl":0,"prevClosePrice":161.76,"openingTimestamp":"2019-04-04T16:00:00.000Z","openingQty":0,"openingCost":0,"openingComm":0,"openOrderBuyQty":0,"openOrderBuyCost":0,"openOrderBuyPremium":0,"openOrderSellQty":0,"openOrderSellCost":0,"openOrderSellPremium":0,"execBuyQty":10,"execBuyCost":159750,"execSellQty":0,"execSellCost":0,"execQty":10,"execCost":159750,"execComm":119,"currentTimestamp":"2019-04-04T16:48:00.101Z","currentQty":10,"currentCost":159750,"currentComm":119,"realisedCost":0,"unrealisedCost":159750,"grossOpenCost":0,"grossOpenPremium":0,"grossExecCost":159750,"isOpen":true,"markPrice":157.83,"markValue":157830,"riskValue":157830,"homeNotional":0.04946821667078902,"foreignNotional":-7.807568637150631,"posState":"","posCost":159750,"posCost2":159750,"posCross":0,"posInit":159750,"posComm":0,"posLoss":0,"posMargin":159750,"posMaint":0,"posAllowance":0,"taxableMargin":0,"initMargin":0,"maintMargin":157830,"sessionMargin":0,"targetExcessMargin":0,"varMargin":0,"realisedGrossPnl":0,"realisedTax":0,"realisedPnl":-119,"unrealisedGrossPnl":-1920,"longBankrupt":0,"shortBankrupt":0,"taxBase":0,"indicativeTaxRate":0,"indicativeTax":0,"unrealisedTax":0,"unrealisedPnl":-1920,"unrealisedPnlPcnt":-0.012,"unrealisedRoePcnt":-0.012,"simpleQty":null,"simpleCost":null,"simpleValue":null,"simplePnl":null,"simplePnlPcnt":null,"avgCostPrice":159.75,"avgEntryPrice":159.75,"breakEvenPrice":159.9,"marginCallPrice":0,"liquidationPrice":0,"bankruptPrice":0,"timestamp":"2019-04-04T16:48:00.101Z","lastPrice":157.83,"lastValue":157830}]
+
+
+WALLET
+
+{"account":177569,"currency":"XBt","prevDeposited":0,"prevWithdrawn":0,"prevTransferIn":1000000,"prevTransferOut":0,"prevAmount":765089,"prevTimestamp":"2019-04-05T12:00:00.000Z","deltaDeposited":0,"deltaWithdrawn":0,"deltaTransferIn":0,"deltaTransferOut":0,"deltaAmount":3506,"deposited":0,"withdrawn":0,"transferIn":1000000,"transferOut":0,"amount":768595,"pendingCredit":0,"pendingDebit":0,"confirmedDebit":0,"timestamp":"2019-04-05T12:00:00.841Z","addr":"2NBMEXQagPCL4sX9L8koXzg5RAamZ6WYqDu","script":"53210207e97345de38b9ec366d76e7730805122b9a43dc0d7119adcee50677b734b3eb2102c10be2f0dc20f4285c25156aa22a0c46d2b89ccc4d1c8eaed92ea0c1a8f40c002102ceba29da1af96a0f2ef7cda6950b8be2baeb1adf12c0d5efebb70dbcaa086ba02103d5a42b90e9d7156155661979530a09d2e12e252ef4104e5611274a7ae7e2b09454ae","withdrawalLock":[]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REPONSE ORDRE
+
+{
+  "orderID": "5a2fe403-ff8f-d8f9-b1c6-c9fbdca460e2",
+  "clOrdID": "",
+  "clOrdLinkID": "",
+  "account": 177569,
+  "symbol": "XBTUSD",
+  "side": "Sell",
+  "simpleOrderQty": null,
+  "orderQty": 10,
+  "price": 5208.5,
+  "displayQty": null,
+  "stopPx": null,
+  "pegOffsetValue": null,
+  "pegPriceType": "",
+  "currency": "USD",
+  "settlCurrency": "XBt",
+  "ordType": "Market",
+  "timeInForce": "ImmediateOrCancel",
+  "execInst": "",
+  "contingencyType": "",
+  "exDestination": "XBME",
+  "ordStatus": "Filled",
+  "triggered": "",
+  "workingIndicator": false,
+  "ordRejReason": "",
+  "simpleLeavesQty": null,
+  "leavesQty": 0,
+  "simpleCumQty": null,
+  "cumQty": 10,
+  "avgPx": 5208.5,
+  "multiLegReportingType": "SingleSecurity",
+  "text": "Submitted via API.",
+  "transactTime": "2019-04-06T20:32:44.237Z",
+  "timestamp": "2019-04-06T20:32:44.237Z"
+}
+
+
+
+POSITION REQUEST
+
+[
+  {
+    "account": 177569,
+    "symbol": "XBTUSD",
+    "currency": "XBt",
+    "underlying": "XBT",
+    "quoteCurrency": "USD",
+    "commission": 0.00075,
+    "initMarginReq": 0.5,
+    "maintMarginReq": 0.005,
+    "riskLimit": 20000000000,
+    "leverage": 2,
+    "crossMargin": false,
+    "deleveragePercentile": 1,
+    "rebalancedPnl": -6466,
+    "prevRealisedPnl": -13776,
+    "prevUnrealisedPnl": 0,
+    "prevClosePrice": 5063,
+    "openingTimestamp": "2019-04-06T20:00:00.000Z",
+    "openingQty": 5,
+    "openingCost": -104136,
+    "openingComm": 1269,
+    "openOrderBuyQty": 0,
+    "openOrderBuyCost": 0,
+    "openOrderBuyPremium": 0,
+    "openOrderSellQty": 0,
+    "openOrderSellCost": 0,
+    "openOrderSellPremium": 0,
+    "execBuyQty": 0,
+    "execBuyCost": 0,
+    "execSellQty": 15,
+    "execSellCost": 287950,
+    "execQty": -15,
+    "execCost": 287950,
+    "execComm": 584,
+    "currentTimestamp": "2019-04-06T20:32:44.240Z",
+    "currentQty": -10,
+    "currentCost": 183814,
+    "currentComm": 1853,
+    "realisedCost": -8176,
+    "unrealisedCost": 191990,
+    "grossOpenCost": 0,
+    "grossOpenPremium": 0,
+    "grossExecCost": 191967,
+    "isOpen": true,
+    "markPrice": 5082,
+    "markValue": 196770,
+    "riskValue": 196770,
+    "homeNotional": -0.0019677,
+    "foreignNotional": 10,
+    "posState": "",
+    "posCost": 191990,
+    "posCost2": 191990,
+    "posCross": 0,
+    "posInit": 95995,
+    "posComm": 216,
+    "posLoss": 0,
+    "posMargin": 96211,
+    "posMaint": 1176,
+    "posAllowance": 0,
+    "taxableMargin": 0,
+    "initMargin": 0,
+    "maintMargin": 100991,
+    "sessionMargin": 0,
+    "targetExcessMargin": 0,
+    "varMargin": 0,
+    "realisedGrossPnl": 8176,
+    "realisedTax": 0,
+    "realisedPnl": 6323,
+    "unrealisedGrossPnl": 4780,
+    "longBankrupt": 0,
+    "shortBankrupt": 0,
+    "taxBase": 5751,
+    "indicativeTaxRate": 0,
+    "indicativeTax": 0,
+    "unrealisedTax": 0,
+    "unrealisedPnl": 4780,
+    "unrealisedPnlPcnt": 0.0249,
+    "unrealisedRoePcnt": 0.0498,
+    "simpleQty": null,
+    "simpleCost": null,
+    "simpleValue": null,
+    "simplePnl": null,
+    "simplePnlPcnt": null,
+    "avgCostPrice": 5208.5,
+    "avgEntryPrice": 5208.5,
+    "breakEvenPrice": 5204.5,
+    "marginCallPrice": 10313.5,
+    "liquidationPrice": 10313.5,
+    "bankruptPrice": 10416.5,
+    "timestamp": "2019-04-06T20:32:44.240Z",
+    "lastPrice": 5082,
+    "lastValue": 196770
+  },
+  {
+    "account": 177569,
+    "symbol": "ETHUSD",
+    "currency": "XBt",
+    "underlying": "ETH",
+    "quoteCurrency": "USD",
+    "commission": 0.00075,
+    "initMarginReq": 0.5,
+    "maintMarginReq": 0.01,
+    "riskLimit": 5000000000,
+    "leverage": 2,
+    "crossMargin": false,
+    "deleveragePercentile": null,
+    "rebalancedPnl": 1644,
+    "prevRealisedPnl": -1770,
+    "prevUnrealisedPnl": 0,
+    "prevClosePrice": 170.17,
+    "openingTimestamp": "2019-04-06T20:00:00.000Z",
+    "openingQty": 10,
+    "openingCost": 168800,
+    "openingComm": 442,
+    "openOrderBuyQty": 0,
+    "openOrderBuyCost": 0,
+    "openOrderBuyPremium": 0,
+    "openOrderSellQty": 0,
+    "openOrderSellCost": 0,
+    "openOrderSellPremium": 0,
+    "execBuyQty": 0,
+    "execBuyCost": 0,
+    "execSellQty": 10,
+    "execSellCost": 169000,
+    "execQty": -10,
+    "execCost": -169000,
+    "execComm": 1402,
+    "currentTimestamp": "2019-04-06T20:29:35.100Z",
+    "currentQty": 0,
+    "currentCost": -200,
+    "currentComm": 1844,
+    "realisedCost": -200,
+    "unrealisedCost": 0,
+    "grossOpenCost": 0,
+    "grossOpenPremium": 0,
+    "grossExecCost": 0,
+    "isOpen": false,
+    "markPrice": null,
+    "markValue": 0,
+    "riskValue": 0,
+    "homeNotional": 0,
+    "foreignNotional": 0,
+    "posState": "",
+    "posCost": 0,
+    "posCost2": 0,
+    "posCross": 0,
+    "posInit": 0,
+    "posComm": 0,
+    "posLoss": 0,
+    "posMargin": 0,
+    "posMaint": 0,
+    "posAllowance": 0,
+    "taxableMargin": 0,
+    "initMargin": 0,
+    "maintMargin": 0,
+    "sessionMargin": 0,
+    "targetExcessMargin": 0,
+    "varMargin": 0,
+    "realisedGrossPnl": 200,
+    "realisedTax": 0,
+    "realisedPnl": -1644,
+    "unrealisedGrossPnl": 0,
+    "longBankrupt": 0,
+    "shortBankrupt": 0,
+    "taxBase": 200,
+    "indicativeTaxRate": 0,
+    "indicativeTax": 0,
+    "unrealisedTax": 0,
+    "unrealisedPnl": 0,
+    "unrealisedPnlPcnt": 0,
+    "unrealisedRoePcnt": 0,
+    "simpleQty": null,
+    "simpleCost": null,
+    "simpleValue": null,
+    "simplePnl": null,
+    "simplePnlPcnt": null,
+    "avgCostPrice": null,
+    "avgEntryPrice": null,
+    "breakEvenPrice": null,
+    "marginCallPrice": null,
+    "liquidationPrice": null,
+    "bankruptPrice": null,
+    "timestamp": "2019-04-06T20:29:35.100Z",
+    "lastPrice": null,
+    "lastValue": 0
+  }
+]
