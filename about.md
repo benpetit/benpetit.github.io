@@ -10,7 +10,7 @@ My primary research interest is artificial intelligence. I am especially interes
 
 I am also highly interested in the statistical aspects of financial markets. At Ecole polytechnique, I worked with Prof. Jean-Philippe Bouchaud on some applications of control theory to trading. In 2018, I spent 6 months at Tower Research Capital in New York, where I worked on some applications of nonlinear machine learning techniques to high-frequency trading.
 
-I also really enjoy teaching. I was a teaching assistant in Mathematics at Lycee Sainte-Genevieve in the academic year 2016-2017, conducting weekly oral examinations for undergraduates (linear algebra, real analysis, probability and group theory among other things). More recently, I have been a teaching assistant at Stanford for CS221 (AI: Principles and Techniques), in Fall 2018 and Spring 2019.
+I really enjoy teaching. I was a teaching assistant in Mathematics at Lycee Sainte-Genevieve in the academic year 2016-2017, conducting weekly oral examinations for undergraduates (linear algebra, real analysis, probability and group theory among other things). More recently, I have been a teaching assistant at Stanford for CS221 (AI: Principles and Techniques), in Fall 2018 and Spring 2019.
 
 In my free time, I play a lot of music (acoustic and electric guitar). I also enjoy traveling and solving interesting puzzles.
 
@@ -24,4 +24,5 @@ In my free time, I play a lot of music (acoustic and electric guitar). I also en
 - An essay on the plactic monoid (RSK correspondence and the Erdos-Szekeres theorem).
 
 <b>Contact</b>
-benpetit \(@t\) stanford \[-dot-\] edu
+
+benpetit \[at\] stanford \[dot\] edu
