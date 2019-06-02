@@ -14,11 +14,14 @@ I really enjoy teaching. I was a teaching assistant in Mathematics at Lycee Sain
 
 In my free time, I play a lot of music (acoustic and electric guitar). I also enjoy traveling and solving interesting puzzles.
 
+<b>Publications and preprints</b>
+
+- M. Emschwiller, B. Petit, J.-P. Bouchaud, "Optimal Multi-Asset Trading with Linear Costs: A Mean-Field Approach", [arxiv: 1905.04821](https://arxiv.org/pdf/1905.04821) (preprint, 2019).
+
 <b>Selected research projects</b>
 
 - Image completion with [neural processes](https://arxiv.org/pdf/1807.01622.pdf) (at Stanford, see details [here](https://github.com/Arnaud15/CS236_Neural_Processes_For_Image_Completion)).
 - Deep learning under massive label noise (at Tower Research).
-- Optimal multi-asset trading with linear costs (with Prof. Jean-Philippe Bouchaud).
 - Stochastic trust-region optimization algorithms, applications to traffic models (in collaboration with [Aimsun](https://www.aimsun.com/)).
 - Fair share problems (under the supervision of Prof. De Seguins-Pazzis).
 - An essay on the plactic monoid (RSK correspondence and the Erdos-Szekeres theorem).
