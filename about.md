@@ -17,7 +17,7 @@ In my free time, I play a lot of music (acoustic and electric guitar). I also en
 <b>Publications and preprints</b>
 
 - M. Emschwiller, B. Petit, J.-P. Bouchaud, "Optimal Multi-Asset Trading with Linear Costs: A Mean-Field Approach", [arxiv: 1905.04821](https://arxiv.org/pdf/1905.04821) (preprint, 2019).
-- B. Petit, L. Amdahl-Culleton, Y. Liu, J. Smith, P.-L. Bacon, "All-Action Policy Gradient Methods: A Numerical Integration Approach", [NeurIPS 2019 Optimization Foundations of Reinforcement Learning Workshop](https://optrl2019.github.io) (to appear, 2019).
+- B. Petit, L. Amdahl-Culleton, Y. Liu, J. Smith, P.-L. Bacon, "All-Action Policy Gradient Methods: A Numerical Integration Approach", [NeurIPS 2019 Optimization Foundations of Reinforcement Learning Workshop](https://optrl2019.github.io), [arXiv: 1910.09093](https://arxiv.org/pdf/1910.09093) (2019).
 
 <b>Selected research projects</b>
 
